@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "outrotestereact",
+    "slug": "outrotestereact",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
