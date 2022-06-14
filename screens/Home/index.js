@@ -10,7 +10,7 @@ import {
 
 import SearchIcon from "../../src/assets/search.svg";
 import { useNavigation } from "@react-navigation/native";
-import { FlatList, SafeAreaView, Text, StyleSheet, View } from "react-native";
+import { FlatList, SafeAreaView, Text, StyleSheet, View, Image } from "react-native";
 
 export default () => {
   const navigation = useNavigation();
@@ -22,7 +22,7 @@ export default () => {
           Encontre aqui o que você quer comprar!
         </HeaderTitle>
       </HeaderArea>
-      <ContainerImg/>
+      <Image style={styles.containerImg} source={require=("../../src/imagens-produtos/alface.png")}/>
     </Container>
   );
 };
