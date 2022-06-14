@@ -6,3 +6,16 @@ export const Container = styled.SafeAreaView`
     flex: 1;
     background-color: #1e1d21;
 `;
+export const HeaderArea = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const HeaderTitle = styled.Text`
+  padding: 20px;
+  width: 250px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 15px;
+`;
