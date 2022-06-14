@@ -17,6 +17,7 @@ import {
   StyleSheet,
   View,
   Image,
+  ScrollView,
 } from "react-native";
 
 export default () => {
@@ -25,30 +26,50 @@ export default () => {
   return (
     <Container>
       <HeaderArea>
-        <HeaderTitle numberOfLines={2}>
+        <HeaderTitle numberOfLines={1}>
           Encontre aqui o que você quer comprar!
         </HeaderTitle>
       </HeaderArea>
-      <Image
-        style={styles.containerImg}
-        source={require("../../imagens-aplicativo/conjunto-de-frutas-vegetais-e-objetos-de-conjunto-de-agua-isolados-no-fundo-branco-para-vegetarianos-e-curar_65580-234.jpg")}
-      />
+      <ScrollView>
+        <Text style={styles.listText}>CUZINHO CHEROSO</Text>
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/macarrao.jpg")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/leitepo.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/alho.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/banana.png")}
+        />
+      </ScrollView>
     </Container>
   );
 };
 
 const styles = StyleSheet.create({
   containerImg: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
     backgroundColor: "#FFF",
-    width: "100%",
-    height: "50%",
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    borderWidth: 1,
+    borderColor: "#FA5030",
+    marginLeft: 10,
   },
   container: {
+    marginTop: 10,
     flex: 1,
     backgroundColor: "#FFF",
+  },
+  scrollView: {
+    marginHorizontal: 20,
   },
   listItem: {
     backgroundColor: "#121212",
@@ -58,6 +79,6 @@ const styles = StyleSheet.create({
   },
   listText: {
     fontSize: 16,
-    color: "#FFF",
+    color: "#1e1d21",
   },
 });
