@@ -14,7 +14,7 @@ export const HeaderArea = styled.View`
 export const Div = styled.View`
   borderBottomColor: #fff;
   borderBottomWidth: 1px;
-  padding: 20px;
+  margin: 20px;
 `;
 export const HeaderTitle = styled.Text`
   padding: 20px;
