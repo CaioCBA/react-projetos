@@ -16,6 +16,24 @@ export const Div = styled.View`
   borderBottomWidth: 2px;
   margin: 20px;
 `;
+export const BodyArea = styled.View`
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+`;
+export const UserContainer = styled.View`
+  height: 50px;
+  background-color: #fff;
+  borderRadius: 10px;
+  align-items: stretch;
+  margin: 15px;
+`;
+export const UserText = styled.Text`
+  padding: 10px;
+  font-size: 13px;
+  color: #696969;
+  margin-top: 5px;
+`;
 export const HeaderTitle = styled.Text`
   padding: 20px;
   width: 250px;
