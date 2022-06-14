@@ -4,7 +4,8 @@ import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  background-color: #1e1d21;
+  ${"" /* background-color: #1e1d21; */}
+  background-color: #fff;
 `;
 
 export const Scroller = styled.ScrollView`
@@ -20,9 +21,9 @@ export const HeaderArea = styled.View`
 
 export const HeaderTitle = styled.Text`
   width: 250px;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #1e1d21;
   margin-top: 15px;
 `;
 
