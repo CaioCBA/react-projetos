@@ -31,6 +31,12 @@ export default () => {
           Encontre aqui o que você quer comprar!
         </HeaderTitle>
       </HeaderArea>
+      <View
+        style={{
+          borderBottomColor: "#fff",
+          borderBottomWidth: 1,
+        }}
+      />
       <ContainerImg>
         <Image
           style={styles.containerImg}
