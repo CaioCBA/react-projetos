@@ -21,8 +21,9 @@ export const HeaderTitle = styled.Text`
 `;
 
 export const Base = styled.View`
-  width: 30px;
-  height: 30px;
-  borderRadius: 30px;
-  color: #fff;
+  marginLeft: 20px;
+  width: 120px;
+  height: 120px;
+  borderRadius: 100px;
+  backgroundColor: #fff;
 `;
