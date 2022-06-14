@@ -22,11 +22,17 @@ export default () => {
           Encontre aqui o que você quer comprar!
         </HeaderTitle>
       </HeaderArea>
+      <ContainerImg/>
     </Container>
   );
 };
 
 const styles = StyleSheet.create({
+  containerImg: {
+    flex: 1,
+    justifyContent: "center",
+    backgroundColor: "#fff",
+  },
   container: {
     flex: 1,
     backgroundColor: "#FFF",
