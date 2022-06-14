@@ -12,8 +12,8 @@ export const HeaderArea = styled.View`
   align-items: center;
 `;
 export const Div = styled.View`
-  borderBottomColor: #fff;
-  borderBottomWidth: 1px;
+  borderBottomColor: #696969;
+  borderBottomWidth: 2px;
   margin: 20px;
 `;
 export const HeaderTitle = styled.Text`
