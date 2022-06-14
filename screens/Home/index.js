@@ -33,8 +33,9 @@ export default () => {
       </HeaderArea>
       <View
         style={{
-          borderBottomColor: "#fff",
+          borderBottomColor: "#696969",
           borderBottomWidth: 1,
+          marginTop: 20,
         }}
       />
       <ContainerImg>
