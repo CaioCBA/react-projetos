@@ -19,3 +19,10 @@ export const HeaderTitle = styled.Text`
   color: #fff;
   margin-top: 15px;
 `;
+
+export const Base = styled.View`
+  width: 30px;
+  height: 30px;
+  borderRadius: 30px;
+  color: #fff;
+`;
