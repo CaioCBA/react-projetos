@@ -7,6 +7,7 @@ import {
   HeaderTitle,
   SearchButton,
   Base,
+  Div,
 } from "./styles";
 
 import SearchIcon from "../../src/assets/search.svg";
@@ -27,6 +28,7 @@ export default () => {
         <HeaderTitle>Perfil</HeaderTitle>
       </HeaderArea>
       <Base/>
+      <Div/>
     </Container>
   );
 };
