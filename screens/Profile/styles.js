@@ -28,11 +28,21 @@ export const UserContainer = styled.View`
   align-items: stretch;
   margin: 15px;
 `;
+export const UserTypes = styled.Text`
+
+  width: 250px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+`;
 export const UserText = styled.Text`
   padding: 10px;
-  font-size: 13px;
+  font-size: 14px;
   color: #696969;
   margin-top: 5px;
+  font-weight: bold;
 `;
 export const HeaderTitle = styled.Text`
   padding: 20px;
