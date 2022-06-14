@@ -6,6 +6,7 @@ import {
   HeaderArea,
   HeaderTitle,
   SearchButton,
+  ContainerImg,
 } from "./styles";
 
 import SearchIcon from "../../src/assets/search.svg";
@@ -26,12 +27,11 @@ export default () => {
   return (
     <Container>
       <HeaderArea>
-        <HeaderTitle numberOfLines={1}>
+        <HeaderTitle numberOfLines={6}>
           Encontre aqui o que você quer comprar!
         </HeaderTitle>
       </HeaderArea>
-      <ScrollView>
-        <Text style={styles.listText}>CUZINHO CHEROSO</Text>
+      <ContainerImg>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/macarrao.jpg")}
@@ -48,37 +48,27 @@ export default () => {
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/banana.png")}
         />
-      </ScrollView>
+      </ContainerImg>
     </Container>
   );
 };
 
 const styles = StyleSheet.create({
   containerImg: {
+    width: 85,
+    height: 85,
     backgroundColor: "#FFF",
-    width: 100,
-    height: 100,
-    borderRadius: 50,
-    borderWidth: 1,
-    borderColor: "#FA5030",
-    marginLeft: 10,
+    borderWidth: 4,
+    borderColor: "#000",
   },
   container: {
-    marginTop: 10,
-    flex: 1,
-    backgroundColor: "#FFF",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    color: "#fff",
   },
   scrollView: {
     marginHorizontal: 20,
-  },
-  listItem: {
-    backgroundColor: "#121212",
-    padding: 25,
-    marginTop: 25,
-    borderRadius: 10,
-  },
-  listText: {
-    fontSize: 16,
-    color: "#1e1d21",
+    flexDirection: "row",
   },
 });
