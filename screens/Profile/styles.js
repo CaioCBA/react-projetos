@@ -11,6 +11,11 @@ export const HeaderArea = styled.View`
   justify-content: space-between;
   align-items: center;
 `;
+export const Div = styled.View`
+  borderBottomColor: #fff;
+  borderBottomWidth: 1px;
+  padding: 20px;
+`;
 export const HeaderTitle = styled.Text`
   padding: 20px;
   width: 250px;
@@ -19,7 +24,6 @@ export const HeaderTitle = styled.Text`
   color: #fff;
   margin-top: 15px;
 `;
-
 export const Base = styled.View`
   marginLeft: 20px;
   width: 120px;
