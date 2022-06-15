@@ -12,8 +12,8 @@ export const HeaderArea = styled.View`
   align-items: center;
 `;
 export const Div = styled.View`
-  borderbottomcolor: #696969;
-  borderbottomwidth: 2px;
+  borderBottomColor: #696969;
+  borderBottomWidth: 2px;
   margin: 20px;
 `;
 export const BodyArea = styled.View`
@@ -24,7 +24,7 @@ export const BodyArea = styled.View`
 export const UserContainer = styled.View`
   height: 45px;
   background-color: #fff;
-  borderradius: 10px;
+  borderRadius: 10px;
   align-items: stretch;
   margin: 15px;
 `;
@@ -52,9 +52,9 @@ export const HeaderTitle = styled.Text`
   margin-top: 15px;
 `;
 export const Base = styled.View`
-  marginleft: 20px;
+  marginLeft: 20px;
   width: 120px;
   height: 120px;
-  borderradius: 100px;
-  backgroundcolor: #fff;
+  borderRadius: 100px;
+  backgroundColor: #fff;
 `;
