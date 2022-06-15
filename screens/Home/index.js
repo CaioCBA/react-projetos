@@ -19,10 +19,15 @@ import {
   View,
   Image,
   ScrollView,
+  Button,
+  TouchableOpacity
 } from "react-native";
+
 
 export default () => {
   const navigation = useNavigation();
+
+  
 
   return (
     <Container>
@@ -56,22 +61,51 @@ export default () => {
       </View>
 
       <ContainerImg>
+
+        <TouchableOpacity
+         onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/alface.png")}
         />
+        </TouchableOpacity>
+
+        <TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/tomate.png")}
+        
+
         />
+        </TouchableOpacity>
+
+        <TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/banana.png")}
+        
+
         />
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/cebolas.png")}
         />
+        </TouchableOpacity>
+
+
       </ContainerImg>
       <View
         style={{
@@ -97,22 +131,53 @@ export default () => {
         </Text>
       </View>
       <ContainerImg>
+
+
+      <TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/arroz.png")}
         />
+</TouchableOpacity>
+
+<TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
           source={require("../../src/imagens-produtos/feijao.png")}
         />
+</TouchableOpacity>
+
+<TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
+
+         
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/alho.png")}
+          source={require("../../src/imagens-produtos/sal.png")}
         />
+</TouchableOpacity>
+
+<TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
+
+        
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/banana.png")}
+          source={require("../../src/imagens-produtos/farinhadetrigo.jpg")}
         />
+        </TouchableOpacity >
+
+
       </ContainerImg>
       <View
         style={{
@@ -141,23 +206,47 @@ export default () => {
         </Text>
       </View>
       <ContainerImg>
+
+      <TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/macarrao.jpg")}
+          source={require("../../src/imagens-produtos/paoforma.jpg")}
         />
+</TouchableOpacity>
+<TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/leitepo.png")}
+          source={require("../../src/imagens-produtos/biscoito.jpg")}
         />
+        </TouchableOpacity>
+
+<TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/alho.png")}
+          source={require("../../src/imagens-produtos/manteiga.png")}
         />
+        </TouchableOpacity>
+
+<TouchableOpacity
+        onPress={() => {
+          alert('Ja esta adicionado ao carrinho!')
+         }}>
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/banana.png")}
+          source={require("../../src/imagens-produtos/oleo.png")}
         />
+        </TouchableOpacity>
       </ContainerImg>
+      
     </Container>
   );
 };

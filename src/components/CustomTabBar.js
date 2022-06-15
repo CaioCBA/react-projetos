@@ -43,9 +43,7 @@ export default ({ state, navigation }) => {
         />
       </TabItem>
 
-      <TabItemCenter onPress={() => goTo("Categories")}>
-        <CategoryIcon width="36" height="36" fill="#9a9fb4" />
-      </TabItemCenter>
+    
 
       <TabItem onPress={() => goTo("Profile")}>
         <ProfileIcon

@@ -7,7 +7,7 @@ export const Container = styled.SafeAreaView`
   background-color: #1e1d21;
 `;
 export const ContainerImg = styled.View`
-  flex-direction: row;
+  flex-direction: c;
   justify-content: space-between;
   align-items: center;
   margin: 10px 10px 10px 10px;
@@ -17,8 +17,7 @@ export const Scroller = styled.ScrollView`
   flex: 1;
   padding: 20px;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+ 
 `;
 
 export const HeaderArea = styled.View`
