@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import {
   Container,
-  Scroller,
   HeaderArea,
   HeaderTitle,
-  SearchButton,
   Base,
   Div,
   BodyArea,
@@ -14,15 +12,9 @@ import {
   UserTypes,
 } from "./styles";
 
-import SearchIcon from "../../src/assets/search.svg";
-import { useNavigation } from "@react-navigation/native";
 import {
-  FlatList,
-  SafeAreaView,
-  Text,
-  StyleSheet,
-  View,
   Image,
+  StyleSheet,
 } from "react-native";
 
 export default () => {
@@ -31,7 +23,10 @@ export default () => {
       <HeaderArea>
         <HeaderTitle>Perfil</HeaderTitle>
       </HeaderArea>
-      <Base/>
+      <Image 
+        style={styles.Img}
+        source={require("../../imagens-aplicativo/joaovictor.jpeg")}
+      />
       <Div/>
       <BodyArea>
         <UserTypes>Nome</UserTypes>
@@ -50,3 +45,13 @@ export default () => {
     </Container>
   );
 };
+
+const styles = StyleSheet.create({
+  Img: {
+    width: 119,
+    height: 119,
+    borderWidth: 2,
+    borderColor: "#fff",
+    borderRadius: 100,
+  },
+});
