@@ -12,8 +12,8 @@ export const HeaderArea = styled.View`
   align-items: center;
 `;
 export const Div = styled.View`
-  borderBottomColor: #696969;
-  borderBottomWidth: 2px;
+  borderbottomcolor: #696969;
+  borderbottomwidth: 2px;
   margin: 20px;
 `;
 export const BodyArea = styled.View`
@@ -22,26 +22,25 @@ export const BodyArea = styled.View`
   align-items: stretch;
 `;
 export const UserContainer = styled.View`
-  height: 50px;
+  height: 45px;
   background-color: #fff;
-  borderRadius: 10px;
+  borderradius: 10px;
   align-items: stretch;
   margin: 15px;
 `;
 export const UserTypes = styled.Text`
-
   width: 250px;
   font-size: 24px;
   font-weight: bold;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
 `;
 export const UserText = styled.Text`
   padding: 10px;
   font-size: 14px;
   color: #696969;
-  margin-top: 5px;
+  margin-top: 1px;
   font-weight: bold;
 `;
 export const HeaderTitle = styled.Text`
@@ -53,9 +52,9 @@ export const HeaderTitle = styled.Text`
   margin-top: 15px;
 `;
 export const Base = styled.View`
-  marginLeft: 20px;
+  marginleft: 20px;
   width: 120px;
   height: 120px;
-  borderRadius: 100px;
-  backgroundColor: #fff;
+  borderradius: 100px;
+  backgroundcolor: #fff;
 `;
