@@ -9,7 +9,7 @@ export const Container = styled.SafeAreaView`
 `;
 export const ContainerImg = styled.View`
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 10px 10px 10px 10px;
 `;
@@ -45,4 +45,8 @@ export const SearchButton = styled.TouchableOpacity`
 export const containerItems = styled.SafeAreaView`
   flex: 1;
   justify-content: center;
+`;
+
+export const containerText = styled.View`
+  alignitems: "center";
 `;

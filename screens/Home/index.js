@@ -38,6 +38,51 @@ export default () => {
           marginTop: 20,
         }}
       />
+      <View>
+        <Text style={styles.fontText}>Hortifruti</Text>
+      </View>
+      <ContainerImg>
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/macarrao.jpg")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/leitepo.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/alho.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/banana.png")}
+        />
+      </ContainerImg>
+      <View>
+        <Text style={styles.fontText}>Grãos</Text>
+      </View>
+      <ContainerImg>
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/macarrao.jpg")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/leitepo.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/alho.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/banana.png")}
+        />
+      </ContainerImg>
+      <View>
+        <Text style={styles.fontText}>Cu</Text>
+      </View>
       <ContainerImg>
         <Image
           style={styles.containerImg}
@@ -67,6 +112,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFF",
     borderWidth: 4,
     borderColor: "#000",
+    borderRadius: 32,
   },
   container: {
     flexDirection: "row",
@@ -77,5 +123,10 @@ const styles = StyleSheet.create({
   scrollView: {
     marginHorizontal: 20,
     flexDirection: "row",
+  },
+  fontText: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#9896a5",
   },
 });

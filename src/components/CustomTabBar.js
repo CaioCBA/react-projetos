@@ -49,7 +49,7 @@ export default ({ state, navigation }) => {
 
       <TabItem onPress={() => goTo("Profile")}>
         <ProfileIcon
-          style={{ opacity: state.index === 4 ? 1 : 0.5 }}
+          style={{ opacity: state.index === 2 ? 1 : 0.5 }}
           width="30"
           height="30"
           fill="#000"
