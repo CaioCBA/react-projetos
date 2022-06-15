@@ -4,12 +4,11 @@ import styled from "styled-components/native";
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  ${"" /* background-color: #1e1d21; */}
   background-color: #1e1d21;
 `;
 export const ContainerImg = styled.View`
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 10px 10px 10px 10px;
 `;

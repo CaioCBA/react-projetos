@@ -39,16 +39,71 @@ export default () => {
         }}
       />
       <View>
-        <Text style={styles.fontText}>Hortifruti</Text>
+        <Text
+          style={[
+            styles.fontText,
+            {
+              alignSelf: "center",
+              borderTopWidth: 2,
+              borderBottomWidth: 2,
+              borderColor: "#FFF",
+              marginTop: 20,
+            },
+          ]}
+        >
+          Hortifruti
+        </Text>
+      </View>
+
+      <ContainerImg>
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/alface.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/tomate.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/banana.png")}
+        />
+        <Image
+          style={styles.containerImg}
+          source={require("../../src/imagens-produtos/cebolas.png")}
+        />
+      </ContainerImg>
+      <View
+        style={{
+          borderBottomColor: "#000",
+          borderBottomWidth: 0.5,
+          marginTop: 20,
+        }}
+      />
+      <View>
+        <Text
+          style={[
+            styles.fontText,
+            {
+              alignSelf: "center",
+              borderTopWidth: 2,
+              borderBottomWidth: 2,
+              borderColor: "#FFF",
+              marginTop: 10,
+            },
+          ]}
+        >
+          Grãos
+        </Text>
       </View>
       <ContainerImg>
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/macarrao.jpg")}
+          source={require("../../src/imagens-produtos/arroz.png")}
         />
         <Image
           style={styles.containerImg}
-          source={require("../../src/imagens-produtos/leitepo.png")}
+          source={require("../../src/imagens-produtos/feijao.png")}
         />
         <Image
           style={styles.containerImg}
@@ -59,29 +114,31 @@ export default () => {
           source={require("../../src/imagens-produtos/banana.png")}
         />
       </ContainerImg>
+      <View
+        style={{
+          borderBottomColor: "#000",
+          borderBottomWidth: 0.5,
+          marginTop: 20,
+        }}
+      />
       <View>
-        <Text style={styles.fontText}>Grãos</Text>
-      </View>
-      <ContainerImg>
-        <Image
-          style={styles.containerImg}
-          source={require("../../src/imagens-produtos/macarrao.jpg")}
-        />
-        <Image
-          style={styles.containerImg}
-          source={require("../../src/imagens-produtos/leitepo.png")}
-        />
-        <Image
-          style={styles.containerImg}
-          source={require("../../src/imagens-produtos/alho.png")}
-        />
-        <Image
-          style={styles.containerImg}
-          source={require("../../src/imagens-produtos/banana.png")}
-        />
-      </ContainerImg>
-      <View>
-        <Text style={styles.fontText}>Cu</Text>
+        <Text
+          style={[
+            styles.fontText,
+            {
+              alignSelf: "center",
+
+              borderTopWidth: 2,
+
+              borderBottomWidth: 2,
+
+              borderColor: "#FFF",
+              marginTop: 10,
+            },
+          ]}
+        >
+          Afins
+        </Text>
       </View>
       <ContainerImg>
         <Image
