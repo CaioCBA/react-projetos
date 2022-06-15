@@ -34,6 +34,7 @@ export const HeaderTitle = styled.Text`
   font-size: 32px;
   font-weight: bold;
   color: #fff;
+  margin-top: 20px;
 `;
 
 export const SearchButton = styled.TouchableOpacity`
